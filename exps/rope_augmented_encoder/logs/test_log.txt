@@ -1,0 +1,384 @@
+
+Testing on _train_all_cat, /ckpts/all_cat_in_one/exp-all-encoder-level3_train_all_cat/ckpts/400_net_network.pth
+Category: all_filtered_21.test.npy, pose_sequence: 4
+total_shape_loss, SCD:0.0066920057870447636
+QDS: 0.0
+WQDS: 0.0
+total_part_loss:0.04715748131275177
+total_contact_loss:1.1595255136489868
+total_acc_num:1978100.0
+total_valid_num:3433600.0
+total_acc:57.61008858680725
+total_contact:0.5157764101866649
+total_scores:0.0
+total_success_rate:1212, total_num in validation: 4541, success_rate: 0.26690155267715454
+total_max_count:60678.0, total_total_num:117644.0
+
+
+Testing on _train_all_cat, /ckpts/all_cat_in_one/exp-all-encoder-level3_train_all_cat/ckpts/800_net_network.pth
+Category: all_filtered_21.test.npy, pose_sequence: 4
+total_shape_loss, SCD:0.00637340173125267
+QDS: 0.0
+WQDS: 0.0
+total_part_loss:0.0452345535159111
+total_contact_loss:1.0895122289657593
+total_acc_num:2052900.0
+total_valid_num:3433600.0
+total_acc:59.78856086730957
+total_contact:0.5374009724252831
+total_scores:0.0
+total_success_rate:1360, total_num in validation: 4541, success_rate: 0.2994934916496277
+total_max_count:63222.0, total_total_num:117644.0
+
+
+Testing on _train_all_cat, /ckpts/all_cat_in_one/exp-all-encoder-level3_train_all_cat/best/net_network.pth
+Category: all_filtered_21.test.npy, pose_sequence: 4
+total_shape_loss, SCD:0.006602654233574867
+QDS: 0.0
+WQDS: 0.0
+total_part_loss:0.04657498002052307
+total_contact_loss:1.100814700126648
+total_acc_num:2015900.0
+total_valid_num:3433600.0
+total_acc:58.71097445487976
+total_contact:0.5314168168372377
+total_scores:0.0
+total_success_rate:1259, total_num in validation: 4541, success_rate: 0.2772517204284668
+total_max_count:62518.0, total_total_num:117644.0
+
+
+Testing on _train_all_cat, /ckpts/all_cat_in_one/exp-all-encoder-level3_train_all_cat/ckpts/800_net_network.pth
+Category: Bag_filtered.test.npy, pose_sequence: 4
+total_shape_loss, SCD:0.00854120310395956
+QDS: 0.0
+WQDS: 0.0
+total_part_loss:0.02380673959851265
+total_contact_loss:0.07585257291793823
+total_acc_num:3200.0
+total_valid_num:6900.0
+total_acc:46.37681245803833
+total_contact:0.425531914893617
+total_scores:0.0
+total_success_rate:7, total_num in validation: 29, success_rate: 0.24137930572032928
+total_max_count:40.0, total_total_num:94.0
+
+
+Testing on _train_all_cat, /ckpts/all_cat_in_one/exp-all-encoder-level3_train_all_cat/ckpts/800_net_network.pth
+Category: Bed_filtered.test.npy, pose_sequence: 4
+total_shape_loss, SCD:0.01202951930463314
+QDS: 0.0
+WQDS: 0.0
+total_part_loss:0.18574702739715576
+total_contact_loss:4.985459327697754
+total_acc_num:1500.0
+total_valid_num:13600.0
+total_acc:11.029411852359772
+total_contact:0.15
+total_scores:0.0
+total_success_rate:0, total_num in validation: 16, success_rate: 0.0
+total_max_count:102.0, total_total_num:680.0
+
+
+Testing on _train_all_cat, /ckpts/all_cat_in_one/exp-all-encoder-level3_train_all_cat/ckpts/800_net_network.pth
+Category: Bottle_filtered.test.npy, pose_sequence: 4
+total_shape_loss, SCD:0.0035996679216623306
+QDS: 0.0
+WQDS: 0.0
+total_part_loss:0.010864652693271637
+total_contact_loss:0.05610404536128044
+total_acc_num:19500.0
+total_valid_num:23000.0
+total_acc:84.78260636329651
+total_contact:0.7124183006535948
+total_scores:0.0
+total_success_rate:63, total_num in validation: 84, success_rate: 0.75
+total_max_count:218.0, total_total_num:306.0
+
+
+Testing on _train_all_cat, /ckpts/all_cat_in_one/exp-all-encoder-level3_train_all_cat/ckpts/800_net_network.pth
+Category: Bowl_filtered.test.npy, pose_sequence: 4
+total_shape_loss, SCD:0.010663075372576714
+QDS: 0.0
+WQDS: 0.0
+total_part_loss:0.020808864384889603
+total_contact_loss:0.014090998098254204
+total_acc_num:4200.0
+total_valid_num:5400.0
+total_acc:77.77777910232544
+total_contact:0.42857142857142855
+total_scores:0.0
+total_success_rate:28, total_num in validation: 39, success_rate: 0.7179487347602844
+total_max_count:12.0, total_total_num:28.0
+
+
+Testing on _train_all_cat, /ckpts/all_cat_in_one/exp-all-encoder-level3_train_all_cat/ckpts/800_net_network.pth
+Category: Chair_filtered.test.npy, pose_sequence: 4
+total_shape_loss, SCD:0.007014676928520203
+QDS: 0.0
+WQDS: 0.0
+total_part_loss:0.0789027139544487
+total_contact_loss:2.3407349586486816
+total_acc_num:622100.0
+total_valid_num:1114000.0
+total_acc:55.84380626678467
+total_contact:0.3874986517096322
+total_scores:0.0
+total_success_rate:149, total_num in validation: 1067, success_rate: 0.1396438628435135
+total_max_count:14370.0, total_total_num:37084.0
+
+
+Testing on _train_all_cat, /ckpts/all_cat_in_one/exp-all-encoder-level3_train_all_cat/ckpts/800_net_network.pth
+Category: Clock_filtered.test.npy, pose_sequence: 4
+total_shape_loss, SCD:0.008852245286107063
+QDS: 0.0
+WQDS: 0.0
+total_part_loss:0.03384434059262276
+total_contact_loss:0.17139354348182678
+total_acc_num:14000.0
+total_valid_num:25000.0
+total_acc:56.00000023841858
+total_contact:0.41134751773049644
+total_scores:0.0
+total_success_rate:41, total_num in validation: 88, success_rate: 0.46590909361839294
+total_max_count:116.0, total_total_num:282.0
+
+
+Testing on _train_all_cat, /ckpts/all_cat_in_one/exp-all-encoder-level3_train_all_cat/ckpts/800_net_network.pth
+Category: Dishwasher_filtered.test.npy, pose_sequence: 4
+total_shape_loss, SCD:0.003569616237655282
+QDS: 0.0
+WQDS: 0.0
+total_part_loss:0.0399223193526268
+total_contact_loss:0.2857334613800049
+total_acc_num:13700.0
+total_valid_num:22100.0
+total_acc:61.990952491760254
+total_contact:0.5687203791469194
+total_scores:0.0
+total_success_rate:13, total_num in validation: 51, success_rate: 0.2549019753932953
+total_max_count:240.0, total_total_num:422.0
+
+
+Testing on _train_all_cat, /ckpts/all_cat_in_one/exp-all-encoder-level3_train_all_cat/ckpts/800_net_network.pth
+Category: Display_filtered.test.npy, pose_sequence: 4
+total_shape_loss, SCD:0.004395310766994953
+QDS: 0.0
+WQDS: 0.0
+total_part_loss:0.01001085713505745
+total_contact_loss:0.03553947061300278
+total_acc_num:41200.0
+total_valid_num:50100.0
+total_acc:82.23552703857422
+total_contact:0.7781155015197568
+total_scores:0.0
+total_success_rate:130, total_num in validation: 191, success_rate: 0.6806282997131348
+total_max_count:512.0, total_total_num:658.0
+
+
+Testing on _train_all_cat, /ckpts/all_cat_in_one/exp-all-encoder-level3_train_all_cat/ckpts/800_net_network.pth
+Category: Door_filtered.test.npy, pose_sequence: 4
+total_shape_loss, SCD:0.0064931027591228485
+QDS: 0.0
+WQDS: 0.0
+total_part_loss:0.037738993763923645
+total_contact_loss:0.1842910796403885
+total_acc_num:6600.0
+total_valid_num:15700.0
+total_acc:42.038217186927795
+total_contact:0.6368715083798883
+total_scores:0.0
+total_success_rate:17, total_num in validation: 51, success_rate: 0.3333333432674408
+total_max_count:228.0, total_total_num:358.0
+
+
+Testing on _train_all_cat, /ckpts/all_cat_in_one/exp-all-encoder-level3_train_all_cat/ckpts/800_net_network.pth
+Category: Earphone_filtered.test.npy, pose_sequence: 4
+total_shape_loss, SCD:0.024435823783278465
+QDS: 0.0
+WQDS: 0.0
+total_part_loss:0.07921425253152847
+total_contact_loss:0.2937648892402649
+total_acc_num:16700.0
+total_valid_num:33100.0
+total_acc:50.453174114227295
+total_contact:0.5512048192771084
+total_scores:0.0
+total_success_rate:9, total_num in validation: 53, success_rate: 0.16981132328510284
+total_max_count:366.0, total_total_num:664.0
+
+
+Testing on _train_all_cat, /ckpts/all_cat_in_one/exp-all-encoder-level3_train_all_cat/ckpts/800_net_network.pth
+Category: Faucet_filtered.test.npy, pose_sequence: 4
+total_shape_loss, SCD:0.012483798898756504
+QDS: 0.0
+WQDS: 0.0
+total_part_loss:0.07015570998191833
+total_contact_loss:0.22070598602294922
+total_acc_num:31500.0
+total_valid_num:73500.0
+total_acc:42.85714328289032
+total_contact:0.5390749601275917
+total_scores:0.0
+total_success_rate:14, total_num in validation: 132, success_rate: 0.10606060922145844
+total_max_count:676.0, total_total_num:1254.0
+
+
+Testing on _train_all_cat, /ckpts/all_cat_in_one/exp-all-encoder-level3_train_all_cat/ckpts/800_net_network.pth
+Category: Hat_filtered.test.npy, pose_sequence: 4
+total_shape_loss, SCD:0.010858278721570969
+QDS: 0.0
+WQDS: 0.0
+total_part_loss:0.020570818334817886
+total_contact_loss:0.228248730301857
+total_acc_num:5400.0
+total_valid_num:9800.0
+total_acc:55.10203838348389
+total_contact:0.4423076923076923
+total_scores:0.0
+total_success_rate:12, total_num in validation: 45, success_rate: 0.2666666805744171
+total_max_count:46.0, total_total_num:104.0
+
+
+Testing on _train_all_cat, /ckpts/all_cat_in_one/exp-all-encoder-level3_train_all_cat/ckpts/800_net_network.pth
+Category: Knife_filtered.test.npy, pose_sequence: 4
+total_shape_loss, SCD:0.003309608669951558
+QDS: 0.0
+WQDS: 0.0
+total_part_loss:0.00868030171841383
+total_contact_loss:0.06316567957401276
+total_acc_num:20500.0
+total_valid_num:24400.0
+total_acc:84.01639461517334
+total_contact:0.7624309392265194
+total_scores:0.0
+total_success_rate:48, total_num in validation: 77, success_rate: 0.6233766078948975
+total_max_count:276.0, total_total_num:362.0
+
+
+Testing on _train_all_cat, /ckpts/all_cat_in_one/exp-all-encoder-level3_train_all_cat/ckpts/800_net_network.pth
+Category: Lamp_filtered.test.npy, pose_sequence: 4
+total_shape_loss, SCD:0.011609665118157864
+QDS: 0.0
+WQDS: 0.0
+total_part_loss:0.061017829924821854
+total_contact_loss:0.31377974152565
+total_acc_num:71800.0
+total_valid_num:194500.0
+total_acc:36.91516816616058
+total_contact:0.4719346049046321
+total_scores:0.0
+total_success_rate:64, total_num in validation: 407, success_rate: 0.15724815428256989
+total_max_count:1732.0, total_total_num:3670.0
+
+
+Testing on _train_all_cat, /ckpts/all_cat_in_one/exp-all-encoder-level3_train_all_cat/ckpts/800_net_network.pth
+Category: Laptop_filtered.test.npy, pose_sequence: 4
+total_shape_loss, SCD:0.004046991933137178
+QDS: 0.0
+WQDS: 0.0
+total_part_loss:0.004766507539898157
+total_contact_loss:0.005996981170028448
+total_acc_num:14800.0
+total_valid_num:16400.0
+total_acc:90.24389982223511
+total_contact:0.9125
+total_scores:0.0
+total_success_rate:68, total_num in validation: 82, success_rate: 0.8292682766914368
+total_max_count:146.0, total_total_num:160.0
+
+
+Testing on _train_all_cat, /ckpts/all_cat_in_one/exp-all-encoder-level3_train_all_cat/ckpts/800_net_network.pth
+Category: Mug_filtered.test.npy, pose_sequence: 4
+total_shape_loss, SCD:0.006980705540627241
+QDS: 0.0
+WQDS: 0.0
+total_part_loss:0.01149424072355032
+total_contact_loss:0.30293384194374084
+total_acc_num:4700.0
+total_valid_num:8400.0
+total_acc:55.95238208770752
+total_contact:0.09433962264150944
+total_scores:0.0
+total_success_rate:11, total_num in validation: 35, success_rate: 0.3142857253551483
+total_max_count:10.0, total_total_num:106.0
+
+
+Testing on _train_all_cat, /ckpts/all_cat_in_one/exp-all-encoder-level3_train_all_cat/ckpts/800_net_network.pth
+Category: StorageFurniture_filtered.test.npy, pose_sequence: 4
+total_shape_loss, SCD:0.0038087572902441025
+QDS: 0.0
+WQDS: 0.0
+total_part_loss:0.030991125851869583
+total_contact_loss:1.4977349042892456
+total_acc_num:250300.0
+total_valid_num:372800.0
+total_acc:67.1405553817749
+total_contact:0.6520049099836334
+total_scores:0.0
+total_success_rate:44, total_num in validation: 280, success_rate: 0.15714286267757416
+total_max_count:12748.0, total_total_num:19552.0
+
+
+Testing on _train_all_cat, /ckpts/all_cat_in_one/exp-all-encoder-level3_train_all_cat/ckpts/800_net_network.pth
+Category: Refrigerator_filtered.test.npy, pose_sequence: 4
+total_shape_loss, SCD:0.0028957598842680454
+QDS: 0.0
+WQDS: 0.0
+total_part_loss:0.04398440942168236
+total_contact_loss:0.5014674663543701
+total_acc_num:10800.0
+total_valid_num:19400.0
+total_acc:55.67010045051575
+total_contact:0.5559701492537313
+total_scores:0.0
+total_success_rate:6, total_num in validation: 31, success_rate: 0.19354838132858276
+total_max_count:298.0, total_total_num:536.0
+
+
+Testing on _train_all_cat, /ckpts/all_cat_in_one/exp-all-encoder-level3_train_all_cat/ckpts/800_net_network.pth
+Category: TrashCan_filtered.test.npy, pose_sequence: 4
+total_shape_loss, SCD:0.0027037898544222116
+QDS: 0.0
+WQDS: 0.0
+total_part_loss:0.016160311177372932
+total_contact_loss:0.5488846898078918
+total_acc_num:10500.0
+total_valid_num:16000.0
+total_acc:65.625
+total_contact:0.33004926108374383
+total_scores:0.0
+total_success_rate:15, total_num in validation: 38, success_rate: 0.3947368562221527
+total_max_count:134.0, total_total_num:406.0
+
+
+Testing on _train_all_cat, /ckpts/all_cat_in_one/exp-all-encoder-level3_train_all_cat/ckpts/800_net_network.pth
+Category: Vase_filtered.test.npy, pose_sequence: 4
+total_shape_loss, SCD:0.00872228667140007
+QDS: 0.0
+WQDS: 0.0
+total_part_loss:0.02429984323680401
+total_contact_loss:0.0986008495092392
+total_acc_num:22400.0
+total_valid_num:42500.0
+total_acc:52.70588397979736
+total_contact:0.3125
+total_scores:0.0
+total_success_rate:111, total_num in validation: 232, success_rate: 0.4784482717514038
+total_max_count:130.0, total_total_num:416.0
+
+
+Testing on _train_all_cat, /ckpts/all_cat_in_one/exp-all-encoder-level3_train_all_cat/ckpts/800_net_network.pth
+Category: Table_filtered.test.npy, pose_sequence: 4
+total_shape_loss, SCD:0.004383795894682407
+QDS: 0.0
+WQDS: 0.0
+total_part_loss:0.03302783519029617
+total_contact_loss:1.083524465560913
+total_acc_num:868100.0
+total_valid_num:1347000.0
+total_acc:64.44692015647888
+total_contact:0.6103916676567265
+total_scores:0.0
+total_success_rate:508, total_num in validation: 1513, success_rate: 0.335756778717041
+total_max_count:30826.0, total_total_num:50502.0
+
