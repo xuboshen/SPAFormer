@@ -16,7 +16,7 @@ do
         --train_data_fn "${category}_filtered.train.npy" \
         --val_data_fn "${category}_filtered.test.npy" \
         --device cuda:0 \
-        --model_dir "./ckpts/all_cat_in_one/exp-${category}-encoder_abs_each_layer-level${level}_train_all_cat/best/net_network.pth"\
+        --model_dir "./checkpoints/ours_multitask_ckpt.pth"\
         --level "$level" \
         --batch_size 16 \
         --num_batch_every_visu 0 \

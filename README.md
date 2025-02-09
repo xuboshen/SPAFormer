@@ -1,4 +1,5 @@
 # SPAFormer: Sequential 3D Part Assembly with Transformers
+Official code of [SPAFormer: Sequential 3D Part Assembly with Transformers](https://arxiv.org/abs/2403.05874) (3DV 2025).
 
 ## Overview
 
@@ -36,8 +37,9 @@ pip install .
 ## Train and Validate
 
 ### Data preparation
+We release the 'diagonal' version of PartNet-Assembly data in [this link](https://pan.baidu.com/s/1jzbnmQLz4XkNR0nX7APl9Q?pwd=skb9&_at_=1739098127967#list/path=%2F).
 
-dataset preprocessing
+If you'd like to create the data on your own, you could follow:
 - Firstly, download the dataset from [PartNet](https://docs.google.com/forms/d/e/1FAIpQLSetsP7aj-Hy0gvP2FxRT3aTIrc_IMqSqR-5Xl8P3x2awDkQbw/viewform). We suggest putting PartNet under ./prep_data.
 
 - Then, process the data by the scripts:
@@ -58,17 +60,34 @@ python prep_pose_sequence_diagonal.py
 ```
 
 ### Training
-We provide our "versatile model" here for clarity. You can navigate other single-category models following the same format freely.
+We provide our "multitask model" here for clarity. You can navigate other single-category models following the same format freely.
 - train script: [train_seq.sh](exps/rope_augmented_encoder/scripts/all_in_one/train_seq.sh)
 
 We provide our training and testing log under [train log](exps/rope_augmented_encoder/logs/train_log.txt) and [test log](exps/rope_augmented_encoder/logs/test_log.txt)
+
+### Pretrained Model
+We release the checkpoint of our "multitask model" in [checkpoints](checkpoints/ours_multitask_ckpt.pth) folder.
 
 ### Validating
 - eval_script across all categories: [test_all.sh](exps/rope_augmented_encoder/scripts/all_in_one/test_all.sh)
 
 ## Acknowledgement
 
-We are grateful for the following projects
-- DGL: The codebase we built upon and benchmarking our baselines.
-- ScorePA: We fix some evaluation errors caused by DGL, i.e. the total size of the dataset.
-- PartNet: the dataset where we built PartNet-Assembly.
+We are grateful for the following projects:
+- [DGL](https://github.com/hyperplane-lab/Generative-3D-Part-Assembly): The codebase we built upon and benchmarking our baselines.
+- [ScorePA](https://github.com/J-F-Cheng/Score-PA_Score-based-3D-Part-Assembly): We fix some evaluation errors caused by DGL, i.e. the total size of the dataset.
+- [PartNet](https://partnet.cs.stanford.edu/): the dataset where we built PartNet-Assembly.
+
+## Citation
+If you find our code and research helpful, please cite our paper:
+```
+@misc{xu2024spaformersequential3dassembly,
+      title={SPAFormer: Sequential 3D Part Assembly with Transformers}, 
+      author={Boshen Xu and Sipeng Zheng and Qin Jin},
+      year={2024},
+      eprint={2403.05874},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2403.05874}, 
+}
+```
