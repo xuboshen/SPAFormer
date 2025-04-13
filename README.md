@@ -81,13 +81,12 @@ We are grateful for the following projects:
 ## Citation
 If you find our code and research helpful, please cite our paper:
 ```
-@misc{xu2024spaformersequential3dassembly,
-      title={SPAFormer: Sequential 3D Part Assembly with Transformers}, 
+@inproceedings{
+      xu2025spaformer,
+      title={{SPAF}ormer: Sequential 3D Part Assembly with Transformers},
       author={Boshen Xu and Sipeng Zheng and Qin Jin},
-      year={2024},
-      eprint={2403.05874},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2403.05874}, 
+      booktitle={International Conference on 3D Vision 2025},
+      year={2025},
+      url={https://openreview.net/forum?id=kryphH8cJP}
 }
 ```
